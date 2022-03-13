@@ -1,0 +1,20 @@
+.bg-blue{
+    background-color: rgba(31,124,224,1);
+}
+.z-index-n1{
+    z-index: -1;
+}
+.z-index-2{
+    z-index: 2;
+}
+.bg-white-t{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.fight-virus{
+    padding-top: 6rem;
+}
+.fight-virus__form{
+    right: 25%;
+    bottom: 1.5rem;
+    left: 10%;
+}
