@@ -18,7 +18,14 @@
     bottom: 1.5rem;
     left: 10%;
 }
+.preparations .btn{
+    text-align: left;
+}
 .preparations svg{
-    width: 20px;
-    height: 20px;
+    color: rgb(51, 83, 209);
+    background-color: rgb(235, 242, 254);
+    padding: 6px;
+    width: 23px;
+    height: 23px;
+    border-radius: 3px;
 }
