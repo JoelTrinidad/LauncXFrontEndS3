@@ -1,31 +1,156 @@
-.bg-blue{
-    background-color: rgba(31,124,224,1);
+html {
+  box-sizing: border-box;
 }
-.z-index-n1{
-    z-index: -1;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-.z-index-2{
-    z-index: 2;
+body {
+  font-family: "Poppins", sans-serif;
 }
-.bg-white-t{
-    background-color: rgba(255, 255, 255, 0.9);
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  /* opcional */
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* opcional */
+  -o-object-position: center center;
+  object-position: center center;
 }
-.fight-virus{
-    padding-top: 6rem;
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
 }
-.fight-virus__form{
-    right: 25%;
-    bottom: 1.5rem;
-    left: 10%;
+p a {
+  display: inline;
 }
-.preparations .btn{
-    text-align: left;
+ul{
+    margin: 0;
+    padding: 0;
 }
-.preparations svg{
-    color: rgb(51, 83, 209);
-    background-color: rgb(235, 242, 254);
-    padding: 6px;
-    width: 23px;
-    height: 23px;
-    border-radius: 3px;
+li {
+  list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(31, 62, 114);
+  }
+.bg-blue {
+  background-color: rgba(31, 124, 224, 1);
+}
+svg {
+  color: rgb(51, 83, 209);
+  background-color: rgb(235, 242, 254);
+  border-radius: 7px;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.z-index-n1 {
+  z-index: -1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.bg-white-t {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.header {
+    font-family: 'Fredoka', sans-serif;
+}
+.header h1 {
+    font-weight: 600;
+    color: rgb(50, 82, 207);
+}
+.header li{
+    font-weight: 500;
+    color: rgb(109, 123, 147);
+    margin: 0 1rem;
+}
+.fight-virus {
+  padding-top: 6rem;
+}
+.fight-virus img {
+  max-height: 800px;
+}
+.fight-virus .container{
+  max-width: 75%;
+  margin: 0;
+}
+.fight-virus h2{
+  font-size: 72px;
+}
+.fight-virus p svg{
+  background-color: rgb(255, 248, 222);
+  color: rgb(255, 215, 52);
+  padding: 6px;
+  width: 26px;
+  height: 26px;
+}
+.fight-virus__form {
+  right: 30%;
+  bottom: 1.5rem;
+  left: 5%;
+}
+.fight-virus__form label {
+  margin-bottom: 5px;
+}
+.fight-virus__form svg{
+  padding: 6px;
+  width: 26px;
+  height: 26px;
+}
+.vaccines img {
+  margin: 0 10px;
+  width: 100%;
+  max-width: 310px;
+  max-height: 200px;
+  opacity: 0.08;
+  filter: grayscale(0.5);
+}
+.why-vaccin {
+}
+.why-vaccin svg {
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+}
+.preparations .btn {
+  text-align: left;
+}
+.preparations svg {
+  padding: 6px;
+  width: 23px;
+  height: 23px;
+  border-radius: 3px;
+}
+.emergency-contact p {
+  font-size: 11px;
+  margin: 0;
+}
+.emergency-contact .title {
+  font-size: 18px;
+}
+.emergency-contact svg {
+  padding: 10px;
+  margin-right: 20px;
+  width: 45px;
+  height: 45px;
+}
+.footer {
+    background-color: rgb(238, 243, 255);
+}
+.footer th,
+.footer td{
+  padding-left: 5px;
+  padding-right: 5px;
 }
